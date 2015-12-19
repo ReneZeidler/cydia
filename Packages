@@ -1,0 +1,14 @@
+Package: de.rene-zeidler.ponymotes-for-alienblue
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Rene Zeidler <rene.zeidler@gmx.de>
+Filename: debs//de.rene-zeidler.ponymotes-for-alienblue_1.0.0.deb
+Size: 6358488
+MD5sum: 3e31fbab2fb07839185d172d4008bf7d
+SHA1: adb3aa93d1448f1cf3360d40de4d134ba0df16a8
+SHA256: 36b862511eb3cd6e1c1166539662e26dc2999858a90a613a4e8ece27aa21362b
+Section: unknown
+Description: Display all default Ponymotes in /r/mylittlepony and /r/MLPLounge in AlienBlue.
+Author: Rene Zeidler <rene.zeidler@gmx.de>
+Depiction: http://renezeidler.github.io/cydia/depic/de.rene-zeidler.ponymotes-for-alienblue/index.html
+Name: Ponymotes for AlienBlue
