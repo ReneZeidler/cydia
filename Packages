@@ -3,10 +3,10 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Rene Zeidler <rene.zeidler@gmx.de>
 Filename: debs//de.rene-zeidler.ponymotes-for-alienblue_1.0.0.deb
-Size: 6358492
-MD5sum: b4d1d2857bc056863c5b18d82bafc0cc
-SHA1: 21330689bb1e80b35fd176ff67566ef1728c9f90
-SHA256: 56e78f9fa8a8344ed72ab8672c9ed4cd2014037aa9aec253e1c8783394504f05
+Size: 6358516
+MD5sum: 69b74a1847b5249bc467ab52f5249072
+SHA1: fea3bf831e0a45f2a54e24c3a54992d163af9925
+SHA256: 908050bf4ff757654c6ec133a1840184f3f80728edda0a4f667c6eb02705c0b6
 Section: Themes (Apps)
 Description: Display all default Ponymotes in /r/mylittlepony and /r/MLPLounge in AlienBlue.
 Author: Rene Zeidler <rene.zeidler@gmx.de>
