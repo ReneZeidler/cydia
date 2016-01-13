@@ -162,3 +162,15 @@ ul, ol {
 .clear {
 	clear: both;
 }
+
+/* Hairlines */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	div.panel {
+		border-top-width: 0.5px;
+		border-bottom-width: 0.5px;
+	}
+
+	div.panel > div.fieldset + div.fieldset, a.button + a.button {
+		border-top-width: 0.5px;
+	}
+}
