@@ -1,7 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text eol=lf
-
-*.png binary
+*.* text=auto
 
 *.deb binary
 
