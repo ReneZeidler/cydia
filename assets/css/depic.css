@@ -167,6 +167,11 @@ ul, ol {
 	clear: both;
 }
 
+/* No Cydia - will be shown with JS */
+div.no-cydia {
+	display: none;
+}
+
 /* Hairlines */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	div.panel {
