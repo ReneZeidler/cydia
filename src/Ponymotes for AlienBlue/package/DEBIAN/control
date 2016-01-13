@@ -1,0 +1,8 @@
+Package: de.rene-zeidler.ponymotes-for-alienblue
+Name: Ponymotes for AlienBlue
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Display all default Ponymotes in /r/mylittlepony and /r/MLPLounge in AlienBlue.
+Section: Themes (Apps)
+Author: Rene Zeidler <rene.zeidler@gmx.de>
+Maintainer: Rene Zeidler <rene.zeidler@gmx.de>
