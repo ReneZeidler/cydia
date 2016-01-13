@@ -75,6 +75,10 @@ div.fieldset.okay {
 	background-color: MediumSeaGreen;
 }
 
+div.fieldset h1 {
+	color: black;
+}
+
 div.fieldset h2 {
 	font-size: 17px;
 	font-weight: normal;
