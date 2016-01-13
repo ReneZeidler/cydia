@@ -1,0 +1,164 @@
+@import 'normalize.css';
+
+body {
+	-webkit-text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: text;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	margin: 9px auto;
+	width: device-width;
+	max-width: 414px;
+	font-family: ".SFNSText-Medium", -apple-system, "Helvetica Neue", "Lucida Grande", sans-serif;
+	background-color: #efeff4;
+	min-font-size: 13px;
+	font-size: 13px;
+	text-align: center;
+}
+
+div.panel {
+	display: block;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	border-top: 1px solid #c8c7cc;
+	border-bottom: 1px solid #c8c7cc;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	background-color: white;
+	text-align: left;
+}
+
+div.fieldset {
+	display: block;
+	padding: 0 15px;
+	background-color: white;
+	color: #666;
+	line-height: 18px;
+	border: 0;
+}
+
+div.fieldset + div.fieldset {
+	margin-left: 15px;
+	padding-left: 0;
+	border-top: 1px solid #c8c7cc;
+}
+
+div.fieldset: last-child {
+	padding-bottom: 1px;
+}
+
+div.fieldset.alert {
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 14px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+div.fieldset.alert > div > a {
+	display: block;
+	width: 100%;
+}
+
+div.fieldset.alert > div > a:link, div.fieldset.alert > div > a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+div.fieldset.warn {
+	color: white;
+	background-color: #ff3824;
+}
+
+div.fieldset.okay {
+	color: white;
+	background-color: MediumSeaGreen;
+}
+
+div.fieldset h2 {
+	font-size: 17px;
+	font-weight: normal;
+	display: block;
+	color: black;
+	position: relative;
+	padding-top: 13.5px;
+	padding-bottom: 14px;
+}
+
+div.fieldset h3 time {
+	font-weight: normal;
+	font-size: 80%;
+}
+
+div.fieldset a:link, div.fieldset a:visited {
+	text-decoration: none;
+	color: #0076ff;
+}
+
+a.button:link, a.button:visited {
+	text-decoration: none;
+	color: #0076ff;
+}
+
+a.button {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 17px;
+	display: block;
+	color: black;
+	position: relative;
+	padding-top: 11.5px;
+	padding-bottom: 12px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-repeat: no-repeat;
+	background-image: url(../img/ios7-chevron.png);
+	background-position: right;
+}
+
+a.button + a.button {
+	border-top: 1px solid #c8c7cc;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	div.fieldset > a.button {
+		background-image: url(../img/ios7-chevron@2x.png);
+		background-size: 8px 13px;
+	}
+}
+
+div.fieldset > div {
+	padding-bottom: 14px;
+	margin-top: 0px
+	margin-bottom: 8px;
+}
+
+div.fieldset > div > p+p {
+	margin-top: 9px;
+}
+
+div.screenshots {
+	text-align: center;
+}
+
+div.screenshots img {
+	outline: solid rgba(204,204,204,0.3) 1px;
+	outline-offset: -1px;
+	margin: 5px 2px
+}
+
+img.emote {
+	float: left;
+	margin: 0 5px 0 0;
+	outline: 0;
+}
+
+ul, ol {
+	padding: 8px 18px;
+}
+
+.clear {
+	clear: both;
+}

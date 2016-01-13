@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ponymotes for AlienBlue</title>
+	<title>Ponymotes for AlienBlue</title>
+	<link rel="stylesheet" type="text/css" href="../../assets/css/depic.css"/>
 </head>
 <body>
-<p>This tweak adds Ponymotes to AlienBlue. It works for all default emotes in the subreddits /r/mylittlepony and /r/MLPLounge.</p>
-<p>Please note: Because of the way the AlienBlue "emote system" (if you can call it that) works, any emotes that have special BPM suffixes will not be displayed, even if the emotes themselves are default. There is no way around this, but it's still better than nothing.</p>
-<p>Another side effect is that everytime you open the app, when you want to write a comment in /r/mylittlepony or /r/MLPLounge for the first time since the app's launch, the app hangs for ~10 seconds because it loads all ~1000 emotes (including alternate names and mirrored versions) to be displayed in the emote selector at the top (swipe right on the black topbar to see it). Again, there is really no way around that.</p>
+
+<div class="panel">
+	<div class="fieldset">
+		<h2>Description</h2>
+		<div>
+			<p><img src="../../assets/img/ohhi.png" alt="ohhi" width="70" height="70" class="emote">This tweak adds Ponymotes to AlienBlue. It works for
+			all default emotes in the subreddits /r/mylittlepony
+			and /r/MLPLounge.</p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="fieldset">
+		<h2>Screenshots</h2>
+		<div class="screenshots">
+			<a target="_new" href="../../assets/screenshots/ponymotes-comment.png"><img src="../../assets/screenshots/ponymotes-comment.png" alt="Comment with Ponymotes" width="125" height="222"></a>
+			<a target="_new" href="../../assets/screenshots/ponymotes-compose.png"><img src="../../assets/screenshots/ponymotes-compose.png" alt="Ponymotes in compose view" width="125" height="222"></a>
+		</div>
+	</div>
+	<div class="fieldset">
+		<h2>Known restrictions</h2>
+		<div>
+			<p><img src="../../assets/img/flutterkay.png" alt="flutterkay" width="70" height="70" class="emote">Because of the way AlienBlue works there are some
+			limitations and annoyances that I can't do anything about:</p>
+			<ul class="clear">
+				<li>Emotes only work in specific subreddits (/r/mylittlepony and
+				/r/MLPLounge). For each additional subreddit the image files
+				of all emotes would have to be duplicated.</li>
+				<li>The <em>first time</em> after launching the app that you compose a
+				post or comment in one of the supported subreddits, the
+				app <strong>freezes for 10 seconds</strong> to load all emotes. (The
+				emotes are displayed in the black bar at the top of the
+				compose screen when you swipe to the right. You can tap
+				them to append the emote code in your comment.)</li>
+				<li>Only the <em>default /r/mylittlepony</em> emotes are supported.
+				BPM-only emotes will not show up.</li>
+				<li>Any emote, even default ones, that have a BPM-flag
+				(<code>-something</code> after the emote name) will not show up. The
+				default notation for reversed emotes (<code>[](/r...)</code>), however,
+				<em>does</em> work.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="panel">
+	<div class="fieldset">
+		<h2>Update Notes</h2>
+		<div>
+			<h3>1.0.0 <time>(2016-01-14)</time></h3>
+			<p>Initial release</p>
+		</div>
+	</div>
+</div>
+<div class="panel">
+	<div class="fieldset">
+		<a class="button" href="https://github.com/ReneZeidler/cydia/tree/gh-pages/src/Ponymotes%20for%20AlienBlue">Source on GitHub</a>
+		<a class="button" href="https://www.reddit.com/user/Rene_Z">/u/Rene_Z on reddit</a>
+	</div>
+</div>
+
 </body>
 </html>
