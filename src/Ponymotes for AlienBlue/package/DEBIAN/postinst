@@ -1,0 +1,19 @@
+#!/bin/sh
+
+ABdir=$(find /var/mobile/Containers/Bundle/Application/ -name "AlienBlue.app")
+
+if [ ! -d "$ABdir" ]; then
+	echo "AlienBlue was not found."
+	echo "Please INSTALL AlienBlue first and then REINSTALL this package!"
+	exit 0
+fi
+
+echo "Installing Ponymotes to: $ABdir/Subreddits.bundle/"
+mkdir -p $ABdir/Subreddits.bundle/{mylittlepony,MLPLounge}/tags 2>/dev/null
+echo $ABdir/Subreddits.bundle/{mylittlepony,MLPLounge}/tags/ | xargs -n 1 cp /var/mobile/Library/Ponymotes/*
+
+rm -rf /var/mobile/Library/Ponymotes 2>/dev/null
+
+echo "Ponymotes were successfully installed. Please restart AlienBlue if it is currently running."
+
+exit 0
